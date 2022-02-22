@@ -33,7 +33,8 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 19 ####
 
-![Slide19](./puml-codes/Slide19.png)
+![image](https://user-images.githubusercontent.com/92081884/155176874-93b3ff0b-004b-4292-95a4-046ec7964fb6.png)
+
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -53,7 +54,8 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
-![Slide20](./puml-codes/Slide20.png)
+![image](https://user-images.githubusercontent.com/92081884/155177311-b69e9056-120f-4b5a-8ca0-d25f6d07ddcb.png)
+
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -98,7 +100,8 @@ Person <|.. Somsak
 #### ผลที่ได้จากการ render สไลด์ 21 ####
 
 
-![Slide21](./puml-codes/Slide21.png)
+![image](https://user-images.githubusercontent.com/92081884/155177655-8b1b7591-62bb-4d20-8fa2-591968da4fac.png)
+
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -147,11 +150,15 @@ class Table{}
 class Chair{}
 class Student{}
 class Teacher{}
-' Todo: ทำให้สมบูรณ์
-
-
+classroom o-- Whiteboard
+classroom o-- Table
+classroom o-- Chair
+classroom o-- Student
+classroom o-- Teacher
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92081884/155179645-66aa18af-8a57-4bb1-bd3a-837d10e308b1.png)
+
 
 ### 2.2 สไลด์หมายเลข 45 ###
 
@@ -164,27 +171,32 @@ class Engine{}
 class Door{}
 class Wheel{}
 class SteeringWheel{}
-' Todo: ทำให้สมบูรณ์
-
+MotorBoat o-- Helm
+MotorBoat o-- Engine
+Car o-- Engine
+Car o-- Door
+Car o-- Wheel
+Car o-- SteeringWheel
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92081884/155179927-828c4d94-d0f1-4b4f-a926-09343dbd6d5e.png)
 
 ### 2.3 สไลด์หมายเลข 51 ###
 
 ``` puml
 @startuml 
-
 class Car{}
 class Engine{}
 class Wheel{}
 class AirConditionner{}
 
-Car <|-- "1..1" Engine
-Car <|-- "2..4" Door
-' Todo: ทำให้สมบูรณ์
-
-@enduml 
+Car o-- "1..1" Engine
+Car o-- "2..4" Door
+Car o-- "4..4" Wheel
+Car o-- "0..1" AirConditionner
+@enduml  
 ```
+![image](https://user-images.githubusercontent.com/92081884/155180026-981007ee-704a-4665-92a5-ab187fd903ce.png)
 
 #### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
 
@@ -205,42 +217,90 @@ Car <|-- "2..4" Door
 
 ``` puml
 @startuml 
-
 class Book{}
 class Cover{}
-Book <|-- "2..2" Cover
-' Todo: ทำให้สมบูรณ์
+class Introduction{}
+class List{}
+class Content{}
+class Bibliography{}
 
+Book o-- "2..2" Cover
+Book o-- "1..1" Introduction
+Book o-- "1..1" List
+Book o-- "1..N" Content
+Book o-- "1..1" Bibliography
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92081884/155180184-1245d426-446f-4605-a7aa-6f22524a4a31.png)
 
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
 
 ``` puml
 @startuml 
-
 class Book{
     - ISBN 
     - Name
     + Read()
     + Print()
 }
- 
-' Todo: ทำให้สมบูรณ์
-
-@enduml 
+class Cover{
+    + Typecover
+    + Open()
+}
+class Introduction{
+    - Textmessage
+    - Authorname
+    + Read()
+}
+class List{
+    - Textmessage
+    + Read()
+}
+class Content{
+    - Chapter
+    + Read()
+}
+class Bibliography{
+    - Textmessage
+    + Read()
+}
+class Paper{
+    - ContentofPaper
+    + Open()
+    + Read()
+}
+class Picture{
+    - Image
+    + See()
+}
+class Font{
+    - Character
+    + Spell()
+}
+Book o-- Cover
+Book o-- Introduction
+Book o-- List
+Book o-- Content
+Book o-- Bibliography
+Content o-- Paper
+Paper o-- Picture
+Paper o-- Font
+@enduml  
 ```
+![image](https://user-images.githubusercontent.com/92081884/155180441-accb57c8-7fd8-4b32-9ea0-f696def93e19.png)
 
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
-
+![image](https://user-images.githubusercontent.com/92081884/155180640-4d343f0b-99bc-4644-b947-4ce1c450c663.png)
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
+![image](https://user-images.githubusercontent.com/92081884/155180709-d4547a73-1dd1-4a14-b44c-4dce2f917181.png)
 
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
-
+![image](https://user-images.githubusercontent.com/92081884/155180852-b2ed0909-ac53-433c-89e4-06c8c348e842.png)
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
+![image](https://user-images.githubusercontent.com/92081884/155180969-25aaf614-5a14-4249-a083-4fae33ef8a7a.png)
 
 
 ---
