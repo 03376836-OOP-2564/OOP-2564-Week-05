@@ -230,6 +230,7 @@ class Book{
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92083472/167163095-1033051f-5ab9-4c47-9781-2058da10f01b.png)
 
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
