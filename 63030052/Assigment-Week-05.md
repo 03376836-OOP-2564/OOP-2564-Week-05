@@ -96,10 +96,9 @@ Person <|.. Somsak
 
 #### ผลที่ได้จากการ render สไลด์ 21 ####
 
-
-![Slide21](./puml-codes/Slide21.png)
-
-^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
+![image](https://user-images.githubusercontent.com/92083472/167160670-cced866c-54dd-4783-9675-0ee9cdc5d1ac.png)
+![image](https://user-images.githubusercontent.com/92083472/167160824-930051ed-10fc-4470-b27d-820c200d8b8a.png)
+![image](https://user-images.githubusercontent.com/92083472/167160896-8df3bbfb-16ce-42b0-b87a-17ceaf35a7e8.png)
 
 #### หมายเหตุ การใช้ลูกศรสามเหลี่ยมที่มีหัวโปร่งใสและเส้นประคือการทำ Instantiation (สร้างวัตถุ) ####
 
