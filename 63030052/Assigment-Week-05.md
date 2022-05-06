@@ -152,6 +152,7 @@ class Teacher{}
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92083472/167162052-984cee6a-fc74-40eb-b149-0f607ca32c4a.png)
 
 ### 2.2 สไลด์หมายเลข 45 ###
 
