@@ -53,10 +53,9 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
-![Slide20](./puml-codes/Slide20.png)
-
-^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
-
+![image](https://user-images.githubusercontent.com/92083472/167160157-1abee784-d59e-4d0d-99b0-d4e93b17cb76.png)
+![image](https://user-images.githubusercontent.com/92083472/167160222-6abf48a5-5993-4408-ad2b-4a34ceaa3773.png)
+![image](https://user-images.githubusercontent.com/92083472/167160280-fd87c8ff-1646-4f0e-9388-29cf88971ee6.png)
 
 #### หมายเหตุ การใช้ลูกศรสามเหลี่ยมที่มีหัวโปร่งใสคือการทำ Inheritance ####
 
