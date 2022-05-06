@@ -33,9 +33,9 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 19 ####
 
-![Slide19](./puml-codes/Slide19.png)
-
-^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
+![image](https://user-images.githubusercontent.com/92083472/167159385-07d46ca4-389e-4b7e-8d92-9d44f09a40a2.png)
+![image](https://user-images.githubusercontent.com/92083472/167159488-b52e8ce9-9580-41ba-b9d0-436eedb94a94.png)
+![image](https://user-images.githubusercontent.com/92083472/167159699-4e68cf1b-f399-486d-9109-24dacf7bfed9.png)
 
 ### 1.2 Code ของตัวอย่าง ปรับปรุงการทำ Classification ของหมาและแมว (สไลด์ที่ 20) ###
 
