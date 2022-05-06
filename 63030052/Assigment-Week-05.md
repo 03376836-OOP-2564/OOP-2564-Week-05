@@ -212,6 +212,7 @@ Book <|-- "2..2" Cover
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92083472/167162928-73994ef2-10fb-468c-8332-0797a3e3331b.png)
 
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
 
