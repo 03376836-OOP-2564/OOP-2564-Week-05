@@ -198,10 +198,7 @@ Car <|-- "1..1" Engine
 Car <|-- "2..4" Door
 @enduml 
 ```
-ซึ่งจะได้ไดอะแกรมดังรูป
-
-![Cardinality-example](./puml-codes/Cardinality-example.png)
-
+![image](https://user-images.githubusercontent.com/92083472/167162572-f467c5d9-afe9-4c49-853e-6d728792bd6f.png)
 
 ### 2.4 Aggregation ของคลาส หนังสือ  (สไลด์หมายเลข 54) ###
 
