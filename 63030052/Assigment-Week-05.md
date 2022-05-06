@@ -236,7 +236,7 @@ class Book{
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
 ![image](https://user-images.githubusercontent.com/92083472/167163317-3a4a2672-2101-4447-8638-0021a85a0198.png)
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
-
+![image](https://user-images.githubusercontent.com/92083472/167163457-892cb63a-e946-427b-9cc1-e23f15ba06db.png)
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
 
 
