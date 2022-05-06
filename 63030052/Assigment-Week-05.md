@@ -169,6 +169,7 @@ class SteeringWheel{}
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92083472/167162353-167112e0-55bd-4c47-ae68-55ab1d1fdbe9.png)
 
 ### 2.3 สไลด์หมายเลข 51 ###
 
