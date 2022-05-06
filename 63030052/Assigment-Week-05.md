@@ -240,6 +240,5 @@ class Book{
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
 ![image](https://user-images.githubusercontent.com/92083472/167163615-9f1f4f00-d40b-44f1-bc41-0a3d6d36c4b4.png)
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
-
-
+![image](https://user-images.githubusercontent.com/92083472/167163760-b595f2b2-c62c-4251-8a75-d999ba1725d9.png)
 ---
