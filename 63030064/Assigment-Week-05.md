@@ -35,7 +35,10 @@ Dog <|.. blackDog
 
 ![Slide19](./puml-codes/Slide19.png)
 
-^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
+![image](https://user-images.githubusercontent.com/92082453/167914538-af03cc77-ff2b-4005-b519-e45fc0a8eec9.png)
+![image](https://user-images.githubusercontent.com/92082453/167914571-89f98acc-d212-41c0-86f6-bbce9e6c32ab.png)
+![image](https://user-images.githubusercontent.com/92082453/167914804-3ef23a3a-09a3-43b4-9792-3352bd4bbf9e.png)
+
 
 ### 1.2 Code ของตัวอย่าง ปรับปรุงการทำ Classification ของหมาและแมว (สไลด์ที่ 20) ###
 
@@ -55,7 +58,9 @@ Dog <|.. blackDog
 
 ![Slide20](./puml-codes/Slide20.png)
 
-^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
+![image](https://user-images.githubusercontent.com/92082453/167914933-53f1df3e-f271-4ad0-8abf-74f2da9923d8.png)
+![image](https://user-images.githubusercontent.com/92082453/167915164-985ddd65-c669-4387-bf00-db89d22ab618.png)
+![image](https://user-images.githubusercontent.com/92082453/167915728-2ab5dfa5-6617-483d-8a20-a260a26f8288.png)
 
 
 #### หมายเหตุ การใช้ลูกศรสามเหลี่ยมที่มีหัวโปร่งใสคือการทำ Inheritance ####
@@ -100,7 +105,10 @@ Person <|.. Somsak
 
 ![Slide21](./puml-codes/Slide21.png)
 
-^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
+![image](https://user-images.githubusercontent.com/92082453/167915911-a3a5cb52-3821-4211-81db-e219727255c0.png)
+![image](https://user-images.githubusercontent.com/92082453/167916060-c9d837b7-ad5d-42cb-bffd-174a25fa160f.png)
+![image](https://user-images.githubusercontent.com/92082453/167916096-fe7b40c2-52cb-456b-8ba3-dc4301a4f3ef.png)
+
 
 #### หมายเหตุ การใช้ลูกศรสามเหลี่ยมที่มีหัวโปร่งใสและเส้นประคือการทำ Instantiation (สร้างวัตถุ) ####
 
@@ -133,6 +141,11 @@ Person <|.. Somsak
 #### ตัวอย่างผลที่ได้จากการ render สไลด์ 22 ####
 
 ![Slide22](./puml-codes/Slide22.png)
+![image](https://user-images.githubusercontent.com/92082453/167916354-6f93015a-bc73-4b34-ac42-71770d4b1eb4.png)
+![image](https://user-images.githubusercontent.com/92082453/167916553-e8965f52-cd3b-490a-a81d-d19a4f7eb94e.png)
+![image](https://user-images.githubusercontent.com/92082453/167916662-6daefc80-91a8-441a-adbb-d9ecefad60aa.png)
+
+
 
 --- 
 ## 2. ให้แก้ไข code ไฟล์ puml เพื่อให้ได้ภาพตามสไลด์ต่อไปนี้  ##
@@ -148,7 +161,7 @@ class Chair{}
 class Student{}
 class Teacher{}
 ' Todo: ทำให้สมบูรณ์
-
+![image](https://user-images.githubusercontent.com/92082453/167917143-f3cd722d-8819-449b-9576-1f56b04fc8f3.png)
 
 @enduml 
 ```
@@ -165,6 +178,7 @@ class Door{}
 class Wheel{}
 class SteeringWheel{}
 ' Todo: ทำให้สมบูรณ์
+![image](https://user-images.githubusercontent.com/92082453/167917237-019ca630-67f2-490b-af4d-3be2f5aa6f60.png)
 
 @enduml 
 ```
@@ -182,6 +196,8 @@ class AirConditionner{}
 Car <|-- "1..1" Engine
 Car <|-- "2..4" Door
 ' Todo: ทำให้สมบูรณ์
+![image](https://user-images.githubusercontent.com/92082453/167917529-12949f29-aada-4c4d-9f12-f9ad49db6122.png)
+
 
 @enduml 
 ```
@@ -210,6 +226,7 @@ class Book{}
 class Cover{}
 Book <|-- "2..2" Cover
 ' Todo: ทำให้สมบูรณ์
+![image](https://user-images.githubusercontent.com/92082453/167917612-afdfc7a0-f4aa-4d44-9dba-2d23d905c0ae.png)
 
 @enduml 
 ```
@@ -227,20 +244,25 @@ class Book{
 }
  
 ' Todo: ทำให้สมบูรณ์
+![image](https://user-images.githubusercontent.com/92082453/167917709-44a21c03-aeda-4dc2-8530-80bcdd2c46b6.png)
 
 @enduml 
 ```
 
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
+![image](https://user-images.githubusercontent.com/92082453/167917803-199bf17d-1a1f-4c39-bc69-04c5ec22b270.png)
 
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
+![image](https://user-images.githubusercontent.com/92082453/167917843-deaa4304-a462-41e2-a0ed-937022f77de4.png)
 
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
+![image](https://user-images.githubusercontent.com/92082453/167917891-643ba133-47fd-49fb-a2b3-b178a6069344.png)
 
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
+![image](https://user-images.githubusercontent.com/92082453/167917942-f92b7c4f-3283-4de7-b819-a9300de0730f.png)
 
 
 ---
