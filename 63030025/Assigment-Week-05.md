@@ -141,6 +141,9 @@ Person <|.. Somsak
 @enduml 
 ```
 #### ตัวอย่างผลที่ได้จากการ render สไลด์ 22 ####
+![image](https://user-images.githubusercontent.com/92078990/167919809-7a61bdff-04ff-4fe0-982f-e93b0784c282.png)
+![image](https://user-images.githubusercontent.com/92078990/167919957-79f7ffec-e373-4d04-a992-d91010d52c3b.png)
+![image](https://user-images.githubusercontent.com/92078990/167920018-d5198831-b9e1-44e7-9e10-ebbf5238ca3b.png)
 
 
 --- 
