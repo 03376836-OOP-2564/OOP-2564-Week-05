@@ -141,7 +141,9 @@ Person <|.. Somsak
 ```
 #### ตัวอย่างผลที่ได้จากการ render สไลด์ 22 ####
 
-![Slide22](./puml-codes/Slide22.png)
+![image](https://user-images.githubusercontent.com/88755456/167916925-7057deef-5e1b-4863-bc1e-0b88b25d2cbc.png)
+![image](https://user-images.githubusercontent.com/88755456/167917087-7c5ac6d1-798c-425d-904e-96ed9c691b91.png)
+![image](https://user-images.githubusercontent.com/88755456/167917140-c8d522d6-834e-4cfb-afb9-3b88fd2ba3dc.png)
 
 --- 
 ## 2. ให้แก้ไข code ไฟล์ puml เพื่อให้ได้ภาพตามสไลด์ต่อไปนี้  ##
