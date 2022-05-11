@@ -118,7 +118,7 @@ Person <|.. Somsak
 "Base class" <|.. "Derived class"
 @enduml 
 ```
-![Instantiation](./puml-codes/Instantiation-example.png)
+![image](https://user-images.githubusercontent.com/92078990/167918893-aaa5ef91-2f62-4120-97ee-39ca5e10a21f.png)
 
 
 ### 1.4 การสร้างวัตถุจาก Class คน  (สไลด์ที่ 22) ###
