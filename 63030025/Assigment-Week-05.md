@@ -55,7 +55,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
-![Slide20](./puml-codes/Slide20.png)
+![image](https://user-images.githubusercontent.com/92078990/167916998-c99bde8d-064f-4c47-bc27-aecf216928d4.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
