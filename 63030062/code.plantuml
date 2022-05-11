@@ -1,0 +1,10 @@
+@startuml 
+
+class Mom{
+}
+
+class Child{
+}
+
+Mom "1..1" ---> "0..n" Child : Have
+@enduml 
