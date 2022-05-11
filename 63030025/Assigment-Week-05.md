@@ -70,7 +70,11 @@ Dog <|.. blackDog
 @enduml 
 ```
 
-![Inheritance](./puml-codes/Inheritance-example.png)
+![image](https://user-images.githubusercontent.com/92078990/167917599-30a9603a-db36-49b7-809b-47a0b5eef7fc.png)g)
+![image](https://user-images.githubusercontent.com/92078990/167917841-072f5dde-6e7c-484e-90c7-b53c3e553f69.png)
+![image](https://user-images.githubusercontent.com/92078990/167918065-fcae4794-2326-49e5-9599-eafc76b26b4a.png)
+
+
 
 ### 1.3 Classification ของ class คน (สไลด์ที่ 21) ###
 
