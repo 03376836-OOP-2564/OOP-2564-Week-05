@@ -234,6 +234,69 @@ class Book{
 
 @enduml 
 ```
+Code  
+
+@startuml 
+
+class Book {  
+    - ISBN   
+    - Name  
+    + Read()  
+    + Print()  
+}
+
+Class Cover {  
+    - CoverType  
+    + Flip()  
+}
+
+Class Introduction {  
+    - CoverTypeTextMessage  
+    - AuthorName  
+    + Read()  
+}
+
+Class Index {  
+    - TextMessage  
+    + Read()  
+}
+
+Class Chapter {  
+    - ContentChapter  
+    + Read()  
+}
+
+Class Bibligraphy {
+    - TextMessage  
+    + Read()  
+}
+
+Class Page {  
+    - ContentofPage  
+    + Filp()  
+    + Read()  
+}
+
+Class Picture {  
+    - Image  
+    + See()  
+}
+
+Class Font {  
+    - Charater  
+    + Spell()  
+}
+
+Book o-- Cover  
+Book o-- Introduction  
+Book o-- Index  
+Book o-- Chapter  
+Book o-- Bibligraphy  
+Chapter o-- Page  
+Page o-- Picture  
+Page o-- Font  
+
+@enduml 
 ![Slide56](./im/Slide_56.png)
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
