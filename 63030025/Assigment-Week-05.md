@@ -163,7 +163,8 @@ class Teacher{}
 
 
 @enduml 
-```
+![image](https://user-images.githubusercontent.com/92078990/167920699-f95ec164-7571-4864-9214-7d1e260d9414.png)
+``
 
 ### 2.2 สไลด์หมายเลข 45 ###
 
@@ -180,6 +181,7 @@ class SteeringWheel{}
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92078990/167920761-63c93ec6-423a-4f9b-b5de-57b0a2a40cb7.png)
 
 ### 2.3 สไลด์หมายเลข 51 ###
 
@@ -197,6 +199,7 @@ Car <|-- "2..4" Door
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92078990/167920803-469080b6-05d3-498d-b852-02538e6237fe.png)
 
 #### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
 
@@ -210,7 +213,8 @@ Car <|-- "2..4" Door
 ```
 ซึ่งจะได้ไดอะแกรมดังรูป
 
-![Cardinality-example](./puml-codes/Cardinality-example.png)
+![image](https://user-images.githubusercontent.com/92078990/167920886-ce0763b5-b051-48c0-9643-43aeacb804d6.png)
+
 
 
 ### 2.4 Aggregation ของคลาส หนังสือ  (สไลด์หมายเลข 54) ###
@@ -225,6 +229,8 @@ Book <|-- "2..2" Cover
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92078990/167920934-367e99b4-79e2-4e85-ac35-e2620bc62782.png)
+
 
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
 
@@ -242,6 +248,7 @@ class Book{
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92078990/167921023-e0c1adc7-f5d2-4709-92c2-ee581fb4f46b.png)
 
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
