@@ -136,7 +136,7 @@ Person <|.. Somsak
 
 ![Slide22](./puml-codes/Slide22.png)
 
-![Slide22](./im/Slide_22.png)
+![Slide22](/im/Slide_22.png)
 --- 
 ## 2. ให้แก้ไข code ไฟล์ puml เพื่อให้ได้ภาพตามสไลด์ต่อไปนี้  ##
 
@@ -155,7 +155,7 @@ class Teacher{}
 
 @enduml 
 ```
-![Slide44](./im/Slide_44.png)
+![Slide44](/im/Slide_44.png)
 
 ### 2.2 สไลด์หมายเลข 45 ###
 
@@ -172,7 +172,7 @@ class SteeringWheel{}
 
 @enduml 
 ```
-![Slide45](./im/Slide_45.png)
+![Slide45](/im/Slide_45.png)
 ### 2.3 สไลด์หมายเลข 51 ###
 
 ``` puml
@@ -189,7 +189,7 @@ Car <|-- "2..4" Door
 
 @enduml 
 ```
-![Slide51](./im/Slide_51.png)
+![Slide51](/im/Slide_51.png)
 #### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
 
 ``` puml
@@ -217,7 +217,7 @@ Book <|-- "2..2" Cover
 
 @enduml 
 ```
-![Slide54](./im/Slide_54.png)
+![Slide54](/im/Slide_54.png)
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
 
 ``` puml
@@ -297,18 +297,18 @@ Page o-- Picture
 Page o-- Font  
 
 @enduml 
-![Slide56](./im/Slide_56.png)
+![Slide56](/im/Slide_56.png)
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
-![Slide71](./im/Slide_71.png)
+![Slide71](/im/Slide_71.png)
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
-![Slide76](./im/Slide_76.png)
+![Slide76](/im/Slide_76.png)
 
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
-![Slide78](./im/Slide_78.png)
+![Slide78](/im/Slide_78.png)
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
-![Slide95](./im/Slide_95.png)
+![Slide95](/im/Slide_95.png)
 
 ---
