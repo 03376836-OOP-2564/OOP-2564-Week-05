@@ -57,7 +57,7 @@ Dog <|.. blackDog
 
 ![image](https://user-images.githubusercontent.com/92078990/167916998-c99bde8d-064f-4c47-bc27-aecf216928d4.png)
 ![image](https://user-images.githubusercontent.com/92078990/167917122-7cdffeb0-a268-4a75-b6fd-b802f414fa42.png)
-![image](https://user-images.githubusercontent.com/92078990/167917500-b8e6b19e-1341-4551-83f2-10d3d74a79e7.png)
+![image](https://user-images.githubusercontent.com/92078990/167918226-d5306458-e5b9-4034-ae79-abf893b3e71a.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
