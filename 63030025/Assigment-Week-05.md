@@ -56,6 +56,7 @@ Dog <|.. blackDog
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
 ![image](https://user-images.githubusercontent.com/92078990/167916998-c99bde8d-064f-4c47-bc27-aecf216928d4.png)
+![image](https://user-images.githubusercontent.com/92078990/167917122-7cdffeb0-a268-4a75-b6fd-b802f414fa42.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
