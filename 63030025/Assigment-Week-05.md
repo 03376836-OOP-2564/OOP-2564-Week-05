@@ -106,7 +106,7 @@ Person <|.. Somsak
 #### ผลที่ได้จากการ render สไลด์ 21 ####
 
 
-![Slide21](./puml-codes/Slide21.png)
+![image](https://user-images.githubusercontent.com/92078990/167918741-41f5ccfc-4752-4215-8924-4ff2e605162d.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
