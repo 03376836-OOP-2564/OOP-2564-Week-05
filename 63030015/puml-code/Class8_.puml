@@ -1,0 +1,60 @@
+@startuml 015
+
+class Book{
+    - ISBN 
+    - Name
+    + Read()
+    + Print()
+}
+ 
+class BookCover{
+    + CoverType
+    + Filp()
+}
+
+class Intro{
+    - Body
+    - Author Name
+    + Read()
+}
+
+class ListofContent{
+    - Body
+    + Read()
+}
+
+class Content{
+    - Content of each chapter
+    + Read()
+}
+
+class Bibliography{
+    - Body
+    + Read()
+}
+
+class Page{
+    - Content of each Page
+    + Filp()
+    + Read()
+}
+
+class Picture{
+    - Photo
+    + Watch()
+}
+
+class Text{
+    - Character
+    + Spell()
+}
+
+Book <|-- BookCover
+Book <|-- Intro
+Book <|-- ListofContent
+Book <|-- Content
+Book <|-- Bibliography
+Content <|-- Page
+Page <|-- Text
+Page <|-- Picture
+@enduml 
