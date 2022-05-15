@@ -147,11 +147,15 @@ class Table{}
 class Chair{}
 class Student{}
 class Teacher{}
-' Todo: ทำให้สมบูรณ์
-
-
+classroom o-- Whiteboard
+classroom o-- Table
+classroom o-- Chair
+classroom o-- Student
+classroom o-- Teacher
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92081694/168483642-d55e4fc6-8218-4056-a683-d0946913d739.png)
+
 
 ### 2.2 สไลด์หมายเลข 45 ###
 
@@ -164,10 +168,16 @@ class Engine{}
 class Door{}
 class Wheel{}
 class SteeringWheel{}
-' Todo: ทำให้สมบูรณ์
-
+MotorBoat o-- Helm
+MotorBoat o-- Engine
+Car o-- Engine
+Car o-- Door
+Car o-- Wheel
+Car o-- SteeringWheel
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92081694/168483630-241cf004-ea33-4975-b150-0d299aecbd0f.png)
+
 
 ### 2.3 สไลด์หมายเลข 51 ###
 
@@ -179,12 +189,16 @@ class Engine{}
 class Wheel{}
 class AirConditionner{}
 
-Car <|-- "1..1" Engine
-Car <|-- "2..4" Door
-' Todo: ทำให้สมบูรณ์
+Car o-- "1..1" Engine
+Car o-- "2..4" Door
+Car o-- "4..4" Wheel
+Car o-- "0..1" AirConditionner
 
 @enduml 
 ```
+
+![image](https://user-images.githubusercontent.com/92081694/168483665-863b5690-98a7-4083-803e-3631733c2032.png)
+
 
 #### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
 
@@ -208,11 +222,21 @@ Car <|-- "2..4" Door
 
 class Book{}
 class Cover{}
-Book <|-- "2..2" Cover
-' Todo: ทำให้สมบูรณ์
+class Introduction{}
+class List{}
+class Content{}
+class Bibliography{}
+
+Book o-- "2..2" Cover
+Book o-- "1..1" Introduction
+Book o-- "1..1" List
+Book o-- "1..N" Content
+Book o-- "1..1" Bibliography
 
 @enduml 
 ```
+
+![image](https://user-images.githubusercontent.com/92081694/168483687-f34555b6-2efc-4268-991b-ea37eb64eab0.png)
 
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
 
@@ -225,22 +249,69 @@ class Book{
     + Read()
     + Print()
 }
- 
-' Todo: ทำให้สมบูรณ์
-
-@enduml 
+class Cover{
+    + Typecover
+    + Open()
+}
+class Introduction{
+    - Textmessage
+    - Authorname
+    + Read()
+}
+class List{
+    - Textmessage
+    + Read()
+}
+class Content{
+    - Chapter
+    + Read()
+}
+class Bibliography{
+    - Textmessage
+    + Read()
+}
+class Paper{
+    - ContentofPaper
+    + Open()
+    + Read()
+}
+class Picture{
+    - Image
+    + See()
+}
+class Font{
+    - Character
+    + Spell()
+}
+Book o-- Cover
+Book o-- Introduction
+Book o-- List
+Book o-- Content
+Book o-- Bibliography
+Content o-- Paper
+Paper o-- Picture
+Paper o-- Font
+@enduml  
 ```
+![image](https://user-images.githubusercontent.com/92081694/168483710-057fdd7d-0127-436f-8aba-3bbb1158a47e.png)
 
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
+![image](https://user-images.githubusercontent.com/92081694/168483722-e1f34428-f2af-42b8-ac27-37d468ade2ff.png)
 
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
+![image](https://user-images.githubusercontent.com/92081694/168483736-ede0da67-8cc8-4a59-9993-4b94baf0422a.png)
 
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
+![image](https://user-images.githubusercontent.com/92081694/168483746-84d6ac96-384e-4fd9-9a8c-3414ca5b4914.png)
 
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
+
+![image](https://user-images.githubusercontent.com/92081694/168483772-6ff868dd-c4f7-4871-bcf9-bbd78888dd2d.png)
+
+
 
 
 ---
