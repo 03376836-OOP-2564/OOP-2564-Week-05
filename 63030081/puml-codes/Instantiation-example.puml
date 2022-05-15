@@ -1,0 +1,3 @@
+@startuml 
+"Base class" <|.. "Derived class"
+@enduml 
