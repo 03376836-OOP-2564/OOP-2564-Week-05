@@ -153,6 +153,8 @@ class Teacher{}
 @enduml 
 ```
 
+![2.1](./puml.png/2.1.png)
+
 ### 2.2 สไลด์หมายเลข 45 ###
 
 ``` puml
