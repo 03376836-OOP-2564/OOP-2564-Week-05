@@ -132,7 +132,7 @@ Person <|.. Somsak
 ```
 #### ตัวอย่างผลที่ได้จากการ render สไลด์ 22 ####
 
-![Slide22](./puml-codes/Slide22.png)
+![Slide22](./puml.png/slide22.png)
 
 --- 
 ## 2. ให้แก้ไข code ไฟล์ puml เพื่อให้ได้ภาพตามสไลด์ต่อไปนี้  ##
