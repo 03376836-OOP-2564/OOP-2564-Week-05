@@ -220,6 +220,8 @@ Book <|-- "2..2" Cover
 @enduml 
 ```
 
+![2.4](./puml.png/2.4.png)
+
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
 
 ``` puml
