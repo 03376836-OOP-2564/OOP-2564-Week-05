@@ -53,7 +53,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
-![Slide20](./puml-codes/Slide20.png)
+![Slide20](./puml.png/slide20.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
