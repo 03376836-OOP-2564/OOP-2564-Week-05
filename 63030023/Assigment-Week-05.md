@@ -171,6 +171,8 @@ class SteeringWheel{}
 @enduml 
 ```
 
+![2.2](./puml.png/2.2.png)
+
 ### 2.3 สไลด์หมายเลข 51 ###
 
 ``` puml
