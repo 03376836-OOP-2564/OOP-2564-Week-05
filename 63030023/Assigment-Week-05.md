@@ -239,6 +239,7 @@ class Book{
 @enduml 
 ```
 
+![2.5](./puml.png/2.5.png)
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
 
