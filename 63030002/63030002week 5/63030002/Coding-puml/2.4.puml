@@ -1,0 +1,17 @@
+@startuml
+
+class Book{}
+class Cover{}
+class Intro{}
+class Intro{}
+class ListOfContent{}
+class Content{}
+class Bibliography{}
+
+Book <|-- "2..2" Cover
+Book <|-- "1..1" Intro
+Book <|-- "1..1" ListOfContent
+Book <|-- "1..N" Content
+Book <|-- "1..1" Bibliography
+
+@enduml
