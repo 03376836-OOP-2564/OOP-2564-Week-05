@@ -1,0 +1,15 @@
+@startuml 
+class Dog{}
+class Cat{}
+class WhiteAnimals{}
+class BlackAnimals{}
+
+WhiteAnimals <|.. whiteCat
+WhiteAnimals <|.. whiteDog
+BlackAnimals <|.. blackCat
+BlackAnimals <|.. blackDog
+Cat <|.. whiteCat
+Dog <|.. whiteDog
+Cat <|.. blackCat
+Dog <|.. blackDog
+@enduml 
