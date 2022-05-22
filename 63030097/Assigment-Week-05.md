@@ -33,7 +33,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 19 ####
 
-![Slide19](./puml-codes/Slide19.png)
+![image](https://user-images.githubusercontent.com/92082316/169678435-bb131644-db1c-4059-8acb-887c4703655f.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -53,7 +53,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
-![Slide20](./puml-codes/Slide20.png)
+![image](https://user-images.githubusercontent.com/92082316/169678471-df26837c-ea67-4025-ba61-6b31656e3fdd.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -98,7 +98,7 @@ Person <|.. Somsak
 #### ผลที่ได้จากการ render สไลด์ 21 ####
 
 
-![Slide21](./puml-codes/Slide21.png)
+![image](https://user-images.githubusercontent.com/92082316/169678495-ba8c1585-f7e1-411f-823d-13c311b485dc.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -132,7 +132,7 @@ Person <|.. Somsak
 ```
 #### ตัวอย่างผลที่ได้จากการ render สไลด์ 22 ####
 
-![Slide22](./puml-codes/Slide22.png)
+![image](https://user-images.githubusercontent.com/92082316/169678515-e2a913cd-2c94-467d-8a56-bf82be2f3f24.png)
 
 --- 
 ## 2. ให้แก้ไข code ไฟล์ puml เพื่อให้ได้ภาพตามสไลด์ต่อไปนี้  ##
@@ -152,7 +152,7 @@ class Teacher{}
 
 @enduml 
 ```
-
+![image](https://user-images.githubusercontent.com/92082316/169678567-a0ce518b-5fd3-4c07-91f6-2969a0560589.png)
 ### 2.2 สไลด์หมายเลข 45 ###
 
 ``` puml
@@ -168,6 +168,7 @@ class SteeringWheel{}
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92082316/169678581-cc9ebb8e-162e-46a0-8ed2-26454dca76e6.png)
 
 ### 2.3 สไลด์หมายเลข 51 ###
 
@@ -185,6 +186,7 @@ Car <|-- "2..4" Door
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92082316/169678587-9849f476-89d6-47fa-aa52-753dffcd5cc0.png)
 
 #### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
 
@@ -213,6 +215,7 @@ Book <|-- "2..2" Cover
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92082316/169678603-82dea4b7-cbb3-4dac-b099-ccd32e7a0243.png)
 
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
 
@@ -230,17 +233,22 @@ class Book{
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92082316/169678613-25bdc463-a5a8-487a-9cc0-ee4e27d04c80.png)
 
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
+![image](https://user-images.githubusercontent.com/92082316/169678620-cce0a3e7-3bbd-461c-b30f-5d5f93678067.png)
 
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
+![image](https://user-images.githubusercontent.com/92082316/169678628-c94aa733-042f-4744-827f-be165fab88d8.png)
 
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
+![image](https://user-images.githubusercontent.com/92082316/169678630-0908d567-19d7-4e20-a607-6f4e697633e9.png)
 
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
+![image](https://user-images.githubusercontent.com/92082316/169678634-e8477018-97e7-4036-9f2b-2bbdb9df09b7.png)
 
 
 ---
