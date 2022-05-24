@@ -1,0 +1,22 @@
+@startuml 
+class Person{
+    - Name
+    # Lastname
+    - Gender
+    - Age
+    + TellNameAndLastName()
+    + TellGender()
+    + TellAge()
+}
+
+object Somsree
+object Somkuan
+object Somjit
+object Somsak
+
+Person <|.. Somsree
+Person <|.. Somkuan
+Person <|.. Somjit
+Person <|.. Somsak
+
+@enduml 
