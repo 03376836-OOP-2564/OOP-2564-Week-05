@@ -1,0 +1,9 @@
+@startuml 
+
+class Car{}
+class Engine{}
+
+Car <|-- "1..1" Engine
+Car <|-- "2..4" Door
+
+@enduml 

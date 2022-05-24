@@ -1,0 +1,10 @@
+@startuml
+
+class CD_player{
+    - Brand
+    - Channel
+    + Play Music()
+    + Play Video()
+}
+
+@enduml
