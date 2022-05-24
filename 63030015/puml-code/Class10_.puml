@@ -1,0 +1,15 @@
+@startuml 015
+
+class Employee{
+    # Salary
+    - Work
+    + Leave Furlough()
+}
+
+class Manager{
+    - Position Allowance
+    + Work order()
+}
+
+Employee <|-- Manager
+@endunl

@@ -1,0 +1,23 @@
+@startuml 015
+
+class BankAccount{
+    - Bank
+    - Account Name
+    - Interest Rate
+    # Outstanding Balance
+    + Deposit()
+    + Withdraw()
+}
+
+class CurrentAccount{
+    Fee
+    + Daily Check
+}
+
+class SavingAccount{
+    + Utility Bills
+}
+
+BankAccount <|-- CurrentAccount
+BankAccount <|-- SavingAccount
+@enduml 
